@@ -5,6 +5,24 @@
     "private": true,
     "license": "MIT",
     "author": "Microsoft",
+    "dependencies": {
+    "adal-node": "^0.1.28",
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "escape-html": "^1.0.3",
+    "ews-javascript-api": "^0.9.4",
+    "ews-javascript-api-auth": "^1.2.1",
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "mongoose": "^5.5.6",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-azure-ad": "^4.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
     "scripts": {
         "start": "node index.js"
     }
